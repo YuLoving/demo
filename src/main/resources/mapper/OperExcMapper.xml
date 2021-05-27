@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.nj.demo2.mapper.OperExcMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.nj.demo2.pojo.OperExcBo">
+        <id column="exc_id" property="excId" />
+        <result column="exc_requset" property="excRequset" />
+        <result column="exc_name" property="excName" />
+        <result column="exc_message" property="excMessage" />
+        <result column="oper_user_id" property="operUserId" />
+        <result column="oper_user_name" property="operUserName" />
+        <result column="oper_method" property="operMethod" />
+        <result column="oper_uri" property="operUri" />
+        <result column="oper_ip" property="operIp" />
+        <result column="oper_version" property="operVersion" />
+        <result column="oper_create_time" property="operCreateTime" />
+    </resultMap>
+
+</mapper>
